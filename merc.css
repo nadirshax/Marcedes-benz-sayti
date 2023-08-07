@@ -1,0 +1,126 @@
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: url(./img/mercedes-benz-biome-_600x0w1.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ortadagi_matn {
+    position: absolute;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 1vw 1vw;
+    margin: 200px 460px;
+}
+
+.blur {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #000000b5;
+}
+
+nav {
+    z-index: 2;
+    color: white;
+    position: absolute;
+    top: 5%;
+}
+
+nav a {
+    color: white;
+    font-size: 3vh;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+/* focus-active hover before */
+
+a:hover {
+    background-image:
+}
+
+a:hover {
+    color: aqua;
+}
+
+a::after {
+    background: blue;
+    color: yellowgreen;
+}
+
+a:active {
+    color: red;
+}
+
+.ortadagi_matn:hover {
+    color: chartreuse;
+    text-shadow: #ffb74d;
+}
+
+.content {
+    columns: 3;
+    text-align: justify;
+    background-color: #ffb74d;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+p {
+    text-align: center;
+    background-color: white;
+    padding: #ffb74d;
+    color: black;
+    cursor: pointer;
+}
+
+.orqa {
+    color: white;
+    background-color: rgb(194, 188, 188);
+    padding: 2px;
+}
+
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: red;
+    outline-color: 2px solid #fff;
+    padding: 30px 60px;
+    position: relative;
+    transition: color 1s;
+}
+
+
+/* .button:hover {
+    color: #833ab4;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 1s;
+}
+
+.button:hover::before {
+    width: 150%;} */
